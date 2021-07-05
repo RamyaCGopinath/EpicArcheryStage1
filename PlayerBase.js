@@ -6,7 +6,7 @@ class PlayerBase{
         this.body = Bodies.rectangle(x,y,w,h,options);
         this.w=w;
         this.h=h;
-        this.image = loadImage("../../assets/base1.png");
+        this.image = loadImage("assets/base1.png");
         World.add(world,this.body);
     }
 
